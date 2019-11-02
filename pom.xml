@@ -18,7 +18,7 @@
     <name>PacketListenerAPI</name>
 
     <properties>
-        <pl.version>3.6.0-SNAPSHOT</pl.version>
+        <pl.version>3.7.3-SNAPSHOT</pl.version>
     </properties>
 
     <build>
@@ -53,7 +53,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>2.4</version>
+                <version>3.2.1</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -89,11 +89,11 @@
     <distributionManagement>
         <repository>
             <id>sonatype-nexus-releases</id>
-            <url>http://repo.inventivetalent.org/content/repositories/releases/</url>
+            <url>https://repo.inventivetalent.org/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>sonatype-nexus-snapshots</id>
-            <url>http://repo.inventivetalent.org/content/repositories/snapshots/</url>
+            <url>https://repo.inventivetalent.org/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -116,8 +116,8 @@
             <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
         </repository>
         <repository>
-            <id>sk89q-repo</id>
-            <url>http://maven.sk89q.com/artifactory/repo/</url>
+            <id>mojang</id>
+            <url>https://libraries.minecraft.net/</url>
         </repository>
         <repository>
             <id>techcable-repo</id>
